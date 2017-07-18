@@ -94,10 +94,10 @@ connection = http.client.HTTPConnection("timetableapi.ptv.vic.gov.au", timeout=2
 devId = integrationId.devId
 key   = integrationId.key
 
-#customerRoute=[('Barry','Belgrave'),('Harry','Hurstbridge'),('Wally','Werribee'),('Freddy','Frankston')]
+customerRoute=[('Barry','Belgrave'),('Harry','Hurstbridge'),('Wally','Werribee'),('Freddy','Frankston')]
 
 #My examples with existing slack accounts 
-customerRoute=[('jules','Pakenham'),('anna','Pakenham')]
+#customerRoute=[('jules','Pakenham'),('anna','Pakenham')]
 
 main()
 connection.close()
